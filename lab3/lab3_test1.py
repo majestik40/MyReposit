@@ -1,4 +1,9 @@
 from setup.graph import *
+from backgraund import backgraundFunc
+
+
+a, b = windowSize()
+backgraundFunc(a, b)
 penSize(1)
 zero = (250, 300)
 x = zero[0]
